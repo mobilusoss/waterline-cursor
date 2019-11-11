@@ -14,13 +14,13 @@
   "author": "Mike McNeil",
   "license": "MIT",
   "dependencies": {
-    "async": "2.0.1",
-    "lodash": "3.10.1"
+    "async": "^3.1.0",
+    "lodash": "^4.17.15"
   },
   "devDependencies": {
     "jpath": "0.0.20",
     "mocha": "3.0.2",
-    "npm": "2.15.6",
+    "npm": "^6.13.0",
     "sails-disk": "^0.10.10",
     "sails-memory": "^0.10.7",
     "waterline-adapter-tests": "^0.12.1"

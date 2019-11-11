@@ -124,7 +124,7 @@ module.exports = function populateBuffers(options, cb) {
             var bufferChildCriteria = _.cloneDeep(instructionSet.instructions[1].criteria);
             var whereObj = {};
 
-            whereObj[instructionSet.instructions[1].childKey] = _.pluck(junctorRecordsForThisBuffer, junctorFKToChild);
+            whereObj[instructionSet.instructions[1].childKey] = _.map(junctorRecordsForThisBuffer, junctorFKToChild);
 
             var childPK = $getPK(instructionSet.instructions[1].child);
 
