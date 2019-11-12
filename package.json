@@ -1,6 +1,6 @@
 {
   "name": "waterline-cursor",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "description": "Association / subquery helper.  Used by some database adapters for Sails/Waterline.",
   "main": "index.js",
   "scripts": {
